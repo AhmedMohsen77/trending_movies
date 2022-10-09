@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Trending</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+<body>
+            <!--S T A R T   N A V B A R -->
+    <nav>
+        <div class="nav-info-1 m-4">
+            <ul>
+                <li><p>Now playing</p></li>
+                <li><p>Popular</p></li>
+                <li><p>Top Rated</p></li>
+                <li><p>Trending</p></li>
+                <li><p>Upcoming</p></li>
+                <li class="contact"><p>Contact Us</p></li>
+            </ul>
+            <div class="caption-nav">
+                <div class="icons-caption-nav mb-3">
+                    <i class="fab fa-facebook-f fs-4 m-2 ms-0"></i>
+                    <i class="fab fa-twitter fs-4 m-2 "></i>
+                    <i class="fas fa-globe fs-4 m-2  "></i>
+                </div>
+                <div class="text-caption">
+                    <p>Copyright Â© 2022 All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-info-2 px-1 py-3">
+            <img class="w-50" src="image/logo.png" alt="logo">
+            <i class="fa fa-align-justify st-current-1  fs-3"></i>
+            <i class="fa fa-align-justify fa-times st-current-2 d-none fs-3 "></i>
+            <div class="icons-nav">
+                <i class="fas fa-globe fs-5 d-block py-3"></i>
+                <i class="fas fa-share-alt fs-5"></i>
+            </div>
+        </div>
+    </nav>
+            <!-- E N D N   N A V B A R -->
+        <!-- S T A R T   S E A R C H -->
+            <section id="search">
+                <div class="container my-5">
+                    <div class="row search">
+                        <div class="col-md-6  inputs inputSearch-1">
+                            <input placeholder="get movies by word..." class="form-control" type="text">
+                        </div>
+                        <div class="col-md-6 inputs inputSearch-2">   
+                            <input placeholder="Search..." class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <!-- E N D   S E A R C H -->
+        <!-- S T A R T   C A R D  M O V I E -->
+    <section id="cardMovie" class="my-5">
+        <div class="container my-5">
+            <div class="row g-4">
+            </div>
+        </div>
+    </section>
+            <!-- E N D   C A R D  M O V I E -->
+        <!-- S T A R T   C O N T A C T US -->
+    <section id="contactUs">
+        <div class="container my-5">
+            <h2  class="text-white my-5">Contact US...</h2>
+            <div class="row contact g-4">
+                <div class="col-md-6 inputs ">
+                    <input id="nameInput" placeholder="Enter Your Name" class="form-control" type="text">
+                    <p id="w-name" class="btn btn-danger form-control rounded-3 p-2 d-none text-start">Your Name is not valid</p>
+                </div>
+                <div class="col-md-6 inputs">
+                    <input id="emailInput" placeholder="Enter Email"  class="form-control" type="text">
+                    <p id="w-email" class="btn btn-danger form-control rounded-3 p-2 d-none text-start">Entre valid email</p>
+                </div>
+                <div class="col-md-6 inputs">
+                    <input id="phoneInput"  placeholder="Enter Phone" class="form-control" type="text">
+                    <p id="w-phone" class="btn btn-danger form-control rounded-3 p-2 d-none text-start">Entre valid phone</p>
+                
+                </div>
+                <div class="col-md-6 inputs">
+                    <input id="ageInput"  placeholder="Enter Age" class="form-control" type="text">
+                    <p id="w-age" class="btn btn-danger form-control rounded-3 p-2 d-none text-start">Entre valid Age</p>
+                
+                </div>
+                <div class="col-md-6 inputs">
+                    <input id="passwordInput" placeholder="Enter password" class="form-control" type="text">
+                    <p id="w-password" class="btn btn-danger form-control rounded-3 p-2 d-none text-start ">Entre valid password *Minimum 8 characters, at least 1 letter and 1 number:*</p>
+                
+                </div>
+                <div class="col-md-6 inputs">
+                    <input id="repasswordInput"  placeholder="Enter RePassword" class="form-control" type="text">
+                    <p id="w-repassword" class="btn btn-danger form-control rounded-3 p-2 d-none text-start ">Entre valid Repassword</p>
+                </div>
+            </div>
+            <button class="btn btn-outline-danger my-3 p-2 fs-5">Submit</button>
+        </div>
+    </section>
+            <!-- E N D   C O N T AC T  US -->
+                <!-- Start Loading Screen -->
+    <div class="screen">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+                    <!-- End Loading Screen -->
+            
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
